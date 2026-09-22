@@ -27,8 +27,8 @@ SEARCHES = [
 
 COUNTRY = "in"        # Adzuna country code (in = India)
 WHERE = ""            # Optional city, for example "Chennai". Empty = all India.
-MAX_DAYS_OLD = 2      # Only jobs posted in the last 2 days
-MIN_SCORE = 40        # Only send jobs scoring at least this (0 to 100)
+MAX_DAYS_OLD = 7      # Only jobs posted in the last 7 days
+MIN_SCORE = 25        # Only send jobs scoring at least this (0 to 100)
 MAX_ALERTS = 15       # Most jobs to send per run
 
 # Your skills. Points are given if the skill appears in the job.
